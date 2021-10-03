@@ -7,3 +7,5 @@ edition = "2018"
 
 [dependencies]
 structopt = "0.3.13"
+mio = { version = "0.7", features = ["os-poll", "os-ext"] }
+timerfd = "1.2.0"
